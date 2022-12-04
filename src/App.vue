@@ -5,7 +5,9 @@
 
     <v-navigation-drawer></v-navigation-drawer> 
 
-    <v-main></v-main> 
+    <v-main>
+        <router-view></router-view>
+    </v-main> 
 
     <v-footer ></v-footer> 
 
@@ -20,5 +22,6 @@ export default {
   data: () => ({
     //
   }),
+
 };
 </script>
