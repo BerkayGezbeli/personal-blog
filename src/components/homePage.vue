@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>selam ben homepage</p>
+    <p>{{$t('common.deneme')}}</p>
     <p>{{deneme}}</p>
   </div>
 </template>
