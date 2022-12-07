@@ -5,6 +5,7 @@
       color="#EEEEEE"
       dense
       app
+      height="75"
     >
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
@@ -48,6 +49,7 @@
           v-for="item in items"
           :key="item.title"
           link
+          :to="item.to"
         >
           <v-list-item-icon>
             <v-icon>{{ item.icon }}</v-icon>
@@ -105,8 +107,8 @@ export default {
     return{
       drawer: false,
       items: [
-          { title: this.$t('common.home'), icon: 'mdi-view-dashboard' },
-          { title: 'Hakkımda', icon: 'mdi-comment-multiple' },
+          { title: this.$t('common.drawer.home'), icon: 'mdi-view-dashboard', to: '/' },
+          { title: this.$t('common.drawer.about'), icon: 'mdi-comment-multiple', to: '/aboutPage' },
         ],
       footerIcons: [
       { icon: 'mdi-facebook', link: 'https://www.facebook.com/berkay.gezbeli' },
