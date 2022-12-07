@@ -2,7 +2,7 @@
   <v-app> 
 
     <v-app-bar
-      color="grey lighten-1"
+      color="#EEEEEE"
       dense
       app
     >
@@ -79,13 +79,14 @@
       <v-card-title class="grey lighten-2">
         <v-spacer></v-spacer>
         <v-btn
-          v-for="icon in footerIcons"
-          :key="icon"
+          v-for="item in footerIcons"
+          :key="item"
           class="mx-4"
           icon
+          :href="item.link" 
         >
           <v-icon color="black" size="24px">
-            {{ icon }}
+            {{ item.icon }}
           </v-icon>
         </v-btn>
       </v-card-title>
@@ -100,19 +101,20 @@
 export default {
   name: 'App',
 
-  data: () => ({
-    drawer: false,
-    items: [
-          { title: 'Ana Sayfa', icon: 'mdi-view-dashboard' },
+  data(){
+    return{
+      drawer: false,
+      items: [
+          { title: this.$t('common.home'), icon: 'mdi-view-dashboard' },
           { title: 'Hakkımda', icon: 'mdi-comment-multiple' },
         ],
-    footerIcons: [
-    'mdi-facebook',
-    'mdi-twitter',
-    'mdi-linkedin',
-    'mdi-instagram',
-  ],
-  }),
-
+      footerIcons: [
+      { icon: 'mdi-facebook', link: 'https://www.facebook.com/berkay.gezbeli' },
+      { icon: 'mdi-twitter', link: 'https://twitter.com/BerkayGezbeli' },
+      { icon: 'mdi-linkedin', link: 'https://www.linkedin.com/in/berkay-gezbeli-675a7b202/' },
+      { icon: 'mdi-instagram', link: 'https://www.instagram.com/berkaygezbeli/' }
+      ],
+    }
+  },
 };
 </script>
