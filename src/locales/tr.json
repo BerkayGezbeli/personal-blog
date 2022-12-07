@@ -1,5 +1,9 @@
 {
     "common": {
-        "home": "Home"
+        "drawer": {
+            "home": "Home",
+            "about": "About"
+        },
+        "about": "About"
     }
 }
