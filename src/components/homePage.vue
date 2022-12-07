@@ -1,7 +1,6 @@
 <template>
   <div>
-    <p>{{$t('common.deneme')}}</p>
-    <p>{{deneme}}</p>
+    <p>{{$t('common.home')}}</p>
   </div>
 </template>
 
@@ -12,11 +11,7 @@ export default {
     }
   },
 
-  computed: {
-    deneme() {
-      return this.$store.state.counter
-    }
-  }
+  computed: {}
 
 }
 </script>
