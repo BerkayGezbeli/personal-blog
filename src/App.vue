@@ -72,6 +72,7 @@
     <v-footer
     dark
     padless
+    height="60"
   >
     <v-card
       class="flex"
