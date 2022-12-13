@@ -3,6 +3,7 @@
     <span class="text-h2">{{$t('about.header')}}</span>
     <div>
       <p>{{$t('about.content')}}</p>
+      <p>üçüncü deneme commiti benim</p>
     </div>
   </v-container>
   </template>
