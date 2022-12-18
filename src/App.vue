@@ -87,6 +87,7 @@
           class="mx-4"
           icon
           :href="item.link" 
+          target="_blank"
         >
           <v-icon color="black" size="24px">
             {{ item.icon }}
