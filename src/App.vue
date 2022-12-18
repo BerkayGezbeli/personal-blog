@@ -29,11 +29,18 @@
 
         <v-list>
           <v-list-item
-            v-for="n in 2"
-            :key="n"
-            @click="() => {}"
+            v-for="(language, index) in languages"
+            :key="index"
+            @click="changeLanguage(language.code)"
           >
-            <v-list-item-title>Option {{ n }}</v-list-item-title>
+            <v-list-item-title>{{ language.lang }}</v-list-item-title>
+            <v-icon
+              v-if="selectedLanguage === language.code"
+              class="ml-3"
+              color="secondary"
+              dense
+              >mdi-checkbox-marked</v-icon
+            >
           </v-list-item>
         </v-list>
       </v-menu>
@@ -108,6 +115,7 @@ export default {
   data(){
     return{
       drawer: false,
+      selectedLanguage: this.$root.$i18n.locale,
       items: [
           { title: this.$t('common.drawer.home'), icon: 'mdi-view-dashboard', to: '/' },
           { title: this.$t('common.drawer.about'), icon: 'mdi-comment-multiple', to: '/aboutPage' },
@@ -118,7 +126,18 @@ export default {
       { icon: 'mdi-linkedin', link: 'https://www.linkedin.com/in/berkay-gezbeli-675a7b202/' },
       { icon: 'mdi-instagram', link: 'https://www.instagram.com/berkaygezbeli/' }
       ],
+      languages: [
+        { lang: "Türkçe", code: "tr"},
+        { lang: "English", code: "en"}
+      ],
     }
   },
+  
+  methods: {
+    changeLanguage(lang){
+      this.selectedLanguage = lang
+      this.$root.$i18n.locale = lang
+    }
+  }
 };
 </script>
