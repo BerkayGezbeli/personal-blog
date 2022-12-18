@@ -13,6 +13,7 @@
 
     },
     "home": {
-        "header": "Merhaba!"
+        "header": "Merhaba!",
+        "content": "Ben Berkay Gezbeli, kendim hakkımda bilgi vermek, hayatıma dair paylaşım yapmak için yayınladığım bu sitede, hakkımda merak ettiklerinizi bulabilirsiniz."
     }
 }
