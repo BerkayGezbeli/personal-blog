@@ -36,6 +36,7 @@
             <v-list-item-title>{{ language.lang }}</v-list-item-title>
             <v-icon
               v-if="selectedLanguage === language.code"
+              class="ml-3"
               color="secondary"
               dense
               >mdi-checkbox-marked</v-icon
