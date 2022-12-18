@@ -12,6 +12,7 @@
         "interests_content": "Swimming, Ski, Cardio workout, Reading, Motorcycle, Camping"
     },
     "home":{
-        "header": "Hello!"
+        "header": "Hello!",
+        "content": "My name is Berkay Gezbeli, to give information about myself and share somethings about my life, I have created this blog. You can get information what you wonder about me."
     }
 }

@@ -10,7 +10,10 @@
         ></v-img>
       </v-col>
       <v-col>
-        <span class="text-h2">{{$t('home.header')}}</span>-
+        <span class="text-h2">{{$t('home.header')}}</span>
+        <div>
+          <p class="text-subtitle-2">{{ $t('home.content') }}</p>
+        </div>
       </v-col>
     </v-row>
   </v-container>
