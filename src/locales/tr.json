@@ -6,7 +6,13 @@
         }
     },
     "about":{
-        "header": "Hakkımda",
-        "content": "26 Eylül 1996 yılında İstanbul'un Beyoğlu ilçesinde dünyaya geldim, 5 kişilik bir ailenin en küçük oğluyum. İlerleyen dönemde çok geçmeden şehrin dışında bulunan Büyükçekmece ilçesinin Sinanoba semtine taşındık. Oldukça sessiz, sakin ve düzenli yerleşimi olan güzel bir yerdi. Hareketli, eğlenceli oyun ve arkadaşlar ile geçen çocukluk geçirdim. İlk ve ortaokul eğitimimi semtimizde bulunan YalçınÇiftçioğlu İlköğertim okulunda tamamladım. Lisenin ilk 3 senesini şehrin oldukça dışında bulunan Gümüşyaka Anadolu Lisesi'nde son seneyi ise Büyükçekmece Anadolu Lisesi'nde tamamladım. Üniversite için Adana Çukurova Üniversitesi Elektrik Elektronik Mühendisliği bölümünü kazandım. Bu dönemde 4 aylık ABD'de Work and Travel deneyimim oldu. Mezuniyetim sonunda çevre ve enerji teknolojileri üzerine bir firmada işe başladım 7 aylık süreç sonunda yazılım sektörüne geçiş yaptım ve şu an halen Front End yazılım geliştirici olarak Etiya firmasında çalışmaktayım."
+        "header_about": "Hakkımda",
+        "header_interests": "Ilgi Alanlarım",
+        "about_content": "26 Eylül 1996 yılında İstanbul'un Beyoğlu ilçesinde dünyaya geldim, 5 kişilik bir ailenin en küçük oğluyum. İlerleyen dönemde çok geçmeden şehrin dışında bulunan Büyükçekmece ilçesinin Sinanoba semtine taşındık. Oldukça sessiz, sakin ve düzenli yerleşimi olan güzel bir yerdi. Hareketli, eğlenceli oyun ve arkadaşlar ile geçen çocukluk geçirdim. İlk ve ortaokul eğitimimi semtimizde bulunan YalçınÇiftçioğlu İlköğertim okulunda tamamladım. Lisenin ilk 3 senesini şehrin oldukça dışında bulunan Gümüşyaka Anadolu Lisesi'nde son seneyi ise Büyükçekmece Anadolu Lisesi'nde tamamladım. Üniversite için Adana Çukurova Üniversitesi Elektrik Elektronik Mühendisliği bölümünü kazandım. Bu dönemde 4 aylık ABD'de Work and Travel deneyimim oldu. Mezuniyetim sonunda çevre ve enerji teknolojileri üzerine bir firmada işe başladım 7 aylık süreç sonunda yazılım sektörüne geçiş yaptım ve şu an halen Front End yazılım geliştirici olarak Etiya firmasında çalışmaktayım.",
+        "interests_content": "Yüzme, Kayak, Kardiyo egzersiz, Okuma, Motorsiklet sürme, Kamp Yapma"
+
+    },
+    "home": {
+        "header": "Merhaba!"
     }
 }
