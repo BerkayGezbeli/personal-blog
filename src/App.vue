@@ -53,7 +53,7 @@
       >
       <v-list>
         <v-list-item
-          v-for="item in items"
+          v-for="item in navbarItems"
           :key="item.title"
           link
           :to="item.to"
@@ -116,10 +116,6 @@ export default {
     return{
       drawer: false,
       selectedLanguage: this.$root.$i18n.locale,
-      items: [
-          { title: this.$t('common.drawer.home'), icon: 'mdi-view-dashboard', to: '/' },
-          { title: this.$t('common.drawer.about'), icon: 'mdi-comment-multiple', to: '/aboutPage' },
-        ],
       footerIcons: [
       { icon: 'mdi-facebook', link: 'https://www.facebook.com/berkay.gezbeli' },
       { icon: 'mdi-twitter', link: 'https://twitter.com/BerkayGezbeli' },
@@ -131,6 +127,16 @@ export default {
         { lang: "Türkçe", code: "tr"},
         { lang: "English", code: "en"}
       ],
+    }
+  },
+
+  computed:{
+    navbarItems() {
+      return [
+        { title: this.$t('common.drawer.home'), icon: 'mdi-view-dashboard', to: '/' },
+        { title: this.$t('common.drawer.about'), icon: 'mdi-comment-multiple', to: '/aboutPage' },
+        { title: this.$t('common.drawer.web_site'), icon: 'mdi-web', to: '/websitePage' },
+      ]
     }
   },
   

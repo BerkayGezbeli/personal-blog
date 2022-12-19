@@ -2,7 +2,8 @@
     "common": {
         "drawer": {
             "home": "Home",
-            "about": "About"
+            "about": "About",
+            "web_site": "Website Creation Steps"
         }
     },
     "about":{
@@ -14,5 +15,8 @@
     "home":{
         "header": "Hello!",
         "content": "My name is Berkay Gezbeli, to give information about myself and share somethings about my life, I have created this blog. You can get information what you wonder about me."
+    },
+    "website": {
+        "header": "Website Creation Basic Steps"
     }
 }

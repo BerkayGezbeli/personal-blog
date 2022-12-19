@@ -2,7 +2,8 @@
     "common": {
         "drawer": {
             "home": "Ana Sayfa",
-            "about": "Hakkımda"
+            "about": "Hakkımda",
+            "web_site": "Web sitesi Oluşturma Adımları"
         }
     },
     "about":{
@@ -15,5 +16,17 @@
     "home": {
         "header": "Merhaba!",
         "content": "Ben Berkay Gezbeli, kendim hakkımda bilgi vermek, hayatıma dair paylaşım yapmak için yayınladığım bu sitede, hakkımda merak ettiklerinizi bulabilirsiniz."
+    },
+    "website": {
+        "header": "Web Sitesi Oluşturma Temel Adımları",
+        "main_content": "Hazır şablonlar üzerinden (wordpress vb.) web sitesi oluşturma yöntemlerinden ziyade, burada bahsedeceğim konu bir Front-end kütüphanesi ile web sitesi geliştirip bunu nasıl yayınlayabileceğinizin temel adımlarını anlatacağım.",
+        "first_content": "Kodlarımızı yazabilmemiz için bir IDE'ye ihtiyaç duyarız bunun için de en yaygın ve benim de kullandığım Visual Studio Code'u indirebiliriz.",
+        "second_content": "Kodlarımızı yazarken bizlere kolaylık olsun diye kullanacağımız bazı araçlar (kütüphaneler) bulunmaktadır bunları projemize dahil etmek, güncellemek, kaldırmak ve bağımlılıkları yönetmek için npm (Node-Package-Manager)'e ihtiyaç duyarız. Kullanmak için Npm birlikte paketlendiklerinden dolayı nodejs yüklememiz gerekmektedir. ",
+        "third_content": "Bu adımda artık kodumuzu yazacağımız önyüz framework'ünü seçmek var, kendim Vuejs kullanıyorum fakat daha bir çok seçenekte bulunmakta React, Angular vb.",
+        "fourth_content": "Framework'ü derlememiz için onun GLI 'da indirmemiz gerekiyor.",
+        "fifth_content": "Artık projemize başlayabiliriz, terminalden (başlat kısmına cmd yazarak erişilebilir) 'vue create proje-adi' yazarak vue projemizi oluşturmaya başlayabiliriz.",
+        "sixth_content": "Npm kullanacağımız yer burası, işlerimizi kolaylaştırmak ve sitemize özellikler eklemek için npm ile görsel kütüphane (Vuetify, bootstrap, tailwindcss vb.), dil kütüphanesi (i18n), CSS ön işlemcisi SASS vb. kütüphaneleri yükleriz.",
+        "seventh_content": "Yaptığımız geliştirmeleri adım adım takip edebilmek, yeri geldiğinde inceleyip, geriye dönüp önceki hallerine bakmak, başkaları ile paylaşmak için GitHub, BitBucket gibi versiyon kontrol sisteminden birinde hesap açıp geliştirmelerimizi buraya yükleyebiliriz. Bunun için commit, branch, pull-push, pull-request gibi kavramlara göz atmanızı tavsiye ederim.",
+        "eighth_content": "Projemizi tamamladıktan sonra bir paket oluştururuz. Peki nedir bu paket? Kodlarımız dolayısıyla da web sitemiz şu ana kadar kendi local'imizde çalışıyor fakat biz bunu sadece kendimiz görelim diye yapmadık:). Bunun için bu kodları bir yere yüklememiz ve insanlarla bir link üzerinden bu siteyi paylaşabiliyor olmalıyız. Yalnız paket ne? Bizim tarayıcımız Angular, React, Vuejs anlamaz! Onun anlayacağı tek şey Javascript, HTML, CSS'dir. Bizler 'npm run build' komutu ile bu yazdığımız kodları bir js, css ve index.html ile sonradan eklediğimiz favicon ve imageler içeren dist adında bir klasör (paket) oluştururuz."
     }
 }
