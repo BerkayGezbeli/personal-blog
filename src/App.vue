@@ -124,7 +124,8 @@ export default {
       { icon: 'mdi-facebook', link: 'https://www.facebook.com/berkay.gezbeli' },
       { icon: 'mdi-twitter', link: 'https://twitter.com/BerkayGezbeli' },
       { icon: 'mdi-linkedin', link: 'https://www.linkedin.com/in/berkay-gezbeli-675a7b202/' },
-      { icon: 'mdi-instagram', link: 'https://www.instagram.com/berkaygezbeli/' }
+      { icon: 'mdi-instagram', link: 'https://www.instagram.com/berkaygezbeli/' },
+      { icon: 'mdi-circle-multiple', link: 'https://medium.com/@berkay.gezbeli' },
       ],
       languages: [
         { lang: "Türkçe", code: "tr"},

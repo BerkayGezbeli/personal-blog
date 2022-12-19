@@ -1,8 +1,8 @@
 {
     "common": {
         "drawer": {
-            "home": "Ana Sayfa",
-            "about": "Hakkımda"
+            "home": "Home",
+            "about": "About"
         }
     },
     "about":{
