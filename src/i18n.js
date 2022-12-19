@@ -11,7 +11,7 @@ const localeJsonFiles = {
 }
 
 export default new VueI18n({ 
-  locale: 'en',     //locale ‘tr’ yapılırsa dil türkçe olur 
+  locale: 'tr',     //locale ‘tr’ yapılırsa dil türkçe olur 
   fallbackLocale: 'en', 
   messages: localeJsonFiles, 
 }) 
