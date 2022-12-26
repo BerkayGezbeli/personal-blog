@@ -17,6 +17,17 @@
         "content": "My name is Berkay Gezbeli, to give information about myself and share somethings about my life, I have created this blog. You can get information what you wonder about me."
     },
     "website": {
-        "header": "Website Creation Basic Steps"
+        "header": "Website Creation Basic Steps",
+        "main_content": "Rather than the methods of creating a website through ready-made templates (wordpress, wix, etc.), I will explain the basic steps of how you can develop and publish a website with a Front-end library.",
+        "first_content": "We need IDE (Integrated Development Environment) to code for that we can install Visual Studio Code which is most common IDE also I use it.",
+        "second_content": "When we are coding there are some tools (frameworks, packages) which makes our job easier. To install, update, remove and managing the dependencies for this packages we need the 'npm' (Node-Package-Manager). To use npm need to install nodejs cause they are packaged together.",
+        "third_content": "At this stage we must choose what front-end framework we will use. I use vuejs but there are lots of choise for instance Angular, React, JQuery etc.",
+        "fourth_content": "To compile framework's code we need thats CLI",
+        "fifth_content": "Now we are ready to start our project, from terminal (can be reached with wrting cmd to search bar) with writing 'vue create project-name' we can start to create our vue project.",
+        "sixth_content": "This is where we will use npm, with npm to make our work easier and add features to our site we add (Vuetify, bootstrap, tailwindcss etc.), internationalization framework (i18n), CSS preprocessor SASS vb. ",
+        "seventh_content": "To can follow what we've done step by step, sometimes to examine, going back and looking at previous versions, to share with others we can sign up one of the version control system like GitHub, BitBucket, we can upload our developments there. For this I recommend you to take a look at concepts such as commit, branch, pull-push, pull-request.",
+        "eighth_content": "After we completed our project we create a package. So what is this package? Our codes therefore our site is working on locale but we have not done this to see this for just ourselves :). Because of this we need to upload our codes to somewhere and site can be shared with people via link. But still what is this package? Our browser do not understand Angular, React, Vuejs! There is one thing that it can understand HTML, CSS, Javascript . With the 'npm run build' command, we create a folder (package) named dist that contains the codes we wrote, a js, css and index.html, and the favicon and images we added later.",
+        "nineth_content": "We upload this created dist folder under htdocs in the area reserved for us to manage our files, where we get the server.",
+        "tenth_content": "If we have a subdomain provided under our hosting provider, after uploading the files, clicking the relevant URL will open our site. If we bought an external domain, not a subdomain, there is a concept called a name server so that our host and domain can be associated. We need to paste the name servers of the host into the domain. In other words, by entering the name servers, we perform the connection operations of our host and domain, and we build the bridge. A few hours after making the connection process, the process is completed. Our site is now ready and accessible."
     }
 }
