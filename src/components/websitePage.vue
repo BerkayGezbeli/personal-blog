@@ -11,6 +11,8 @@
         <p class="text-subtitle-2">6 - {{ $t('website.sixth_content') }}</p>
         <p class="text-subtitle-2">7 - {{ $t('website.seventh_content') }}</p>
         <p class="text-subtitle-2">8 - {{ $t('website.eighth_content') }}</p>
+        <p class="text-subtitle-2">9 - {{ $t('website.nineth_content') }}</p>
+        <p class="text-subtitle-2">10 - {{ $t('website.tenth_content') }}</p>
     </div>
   </v-container>
 </template>

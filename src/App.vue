@@ -143,7 +143,7 @@ export default {
   methods: {
     changeLanguage(lang){
       this.selectedLanguage = lang
-      this.$root.$i18n.locale = lang
+      this.$i18n.locale = lang
     }
   }
 };
