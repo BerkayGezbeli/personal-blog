@@ -13,7 +13,7 @@
         <p class="text-subtitle-2">8 - {{ $t('website.eighth_content') }}</p>
         <p class="text-subtitle-2">9 - {{ $t('website.nineth_content') }}</p>
         <p class="text-subtitle-2">10 - {{ $t('website.tenth_content') }}</p>
-        <p>deneme merhaba</p>
+        <p>deneme merhaba - 11:28</p>
     </div>
   </v-container>
 </template>
