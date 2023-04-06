@@ -3,19 +3,20 @@
         "drawer": {
             "home": "Ana Sayfa",
             "about": "Hakkımda",
-            "web_site": "Web sitesi Oluşturma Adımları"
+            "web_site": "Web sitesi Oluşturma Adımları",
+            "git": "Git Notları"
         }
     },
     "about":{
         "header_about": "Hakkımda",
         "header_interests": "İlgi Alanlarım",
-        "about_content": "26 Eylül 1996 yılında İstanbul'un Beyoğlu ilçesinde dünyaya geldim, 5 kişilik bir ailenin en küçük oğluyum. İlerleyen dönemde çok geçmeden şehrin dışında bulunan Büyükçekmece ilçesinin Sinanoba semtine taşındık. Oldukça sessiz, sakin ve düzenli yerleşimi olan güzel bir yerdi. Hareketli, eğlenceli oyun ve arkadaşlar ile geçen çocukluk geçirdim. İlk ve ortaokul eğitimimi semtimizde bulunan YalçınÇiftçioğlu İlköğertim okulunda tamamladım. Lisenin ilk 3 senesini şehrin oldukça dışında bulunan Gümüşyaka Anadolu Lisesi'nde son seneyi ise Büyükçekmece Anadolu Lisesi'nde tamamladım. Üniversite için Adana Çukurova Üniversitesi Elektrik Elektronik Mühendisliği bölümünü kazandım. Bu dönemde 4 aylık ABD'de Work and Travel deneyimim oldu. Mezuniyetim sonunda çevre ve enerji teknolojileri üzerine bir firmada işe başladım 7 aylık süreç sonunda yazılım sektörüne geçiş yaptım ve şu an halen Front End yazılım geliştirici olarak Etiya firmasında çalışmaktayım.",
-        "interests_content": "Yüzme, Kayak, Kardiyo egzersiz, Okuma, Motorsiklet sürme, Kamp Yapma"
+        "about_content": "26 Eylül 1996 yılında İstanbul'un Beyoğlu ilçesinde dünyaya geldim, 5 kişilik bir ailenin en küçük oğluyum. İlerleyen dönemde çok geçmeden şehrin dışında bulunan Büyükçekmece ilçesinin Sinanoba semtine taşındık. Oldukça sessiz, sakin ve düzenli yerleşimi olan güzel bir yerdi. İlk ve ortaokul eğitimimi semtimizde bulunan YalçınÇiftçioğlu İlköğertim okulunda tamamladım. Lisenin ilk 3 senesini şehrin oldukça dışında bulunan Gümüşyaka Anadolu Lisesi'nde son seneyi ise Büyükçekmece Anadolu Lisesi'nde tamamladım. Üniversite için Adana Çukurova Üniversitesi Elektrik Elektronik Mühendisliği bölümünü kazandım. Bu dönemde 4 aylık ABD'de Work and Travel deneyimim oldu. Mezuniyetim sonunda çevre ve enerji teknolojileri üzerine bir firmada işe başladım 7 aylık süreç sonunda yazılım sektörüne geçiş yaptım ve şu an halen Front End yazılım geliştirici olarak Etiya firmasında çalışmaktayım.",
+        "interests_content": "Yüzme, Kayak, Kardiyo , Okuma, Motosiklet , Kamp , Puzzle"
 
     },
     "home": {
         "header": "Merhaba!",
-        "content": "Ben Berkay Gezbeli, kendim hakkımda bilgi vermek, hayatıma dair paylaşım yapmak için yayınladığım bu sitede, hakkımda merak ettiklerinizi bulabilirsiniz."
+        "content": "Kendim hakkımda bilgi vermek, hayatıma dair paylaşımlarda bulunmak ve bildiklerimi paylaşım yapmak için yayınladığım bu sitede, merak ettiklerinizi bulabilirsiniz."
     },
     "website": {
         "header": "Web Sitesi Oluşturma Temel Adımları",
@@ -30,5 +31,22 @@
         "eighth_content": "Projemizi tamamladıktan sonra bir paket oluştururuz. Peki nedir bu paket? Kodlarımız dolayısıyla da web sitemiz şu ana kadar kendi local'imizde çalışıyor fakat biz bunu sadece kendimiz görelim diye yapmadık:). Bunun için bu kodları bir yere yüklememiz ve insanlarla bir link üzerinden bu siteyi paylaşabiliyor olmalıyız. Yalnız paket ne? Bizim tarayıcımız Angular, React, Vuejs anlamaz! Onun anlayacağı tek şey Javascript, HTML, CSS'dir. Bizler 'npm run build' komutu ile bu yazdığımız kodları bir js, css ve index.html ile sonradan eklediğimiz favicon ve imageler içeren dist adında bir klasör (paket) oluştururuz.",
         "nineth_content": "Bu oluşturulan dist klasörünü sunucu aldığımız yerde bize dosyalarımızı yönetmemiz için ayrılan alandaki htdocs altına yükleriz.",
         "tenth_content": "Eğer hosting sağlayacımız altında sağlanan bir subdomain aldıysak, dosyaları yükledikten sonra ilgili URL tıklandığında sitemiz açılır. Eğer subdomain değilde dışarıdan bir domain aldıysak, host'umuz ve domain'imizin ilişkilendirilebilmesi için name server denilen bir kavram var. Host'a ait name server'ları domain'e yapıştırmamız gerekiyor. Yani name server’ları girerek host’umuz ile domain’imizin bağlantı işlemlerini gerçekleştirmiş oluyoruz köprüyü kuruyoruz. Bağlantı işlemini yaptıktan birkaç saat sonra işlem tamamlanıyor. Artık sitemiz hazır ve erişilebilir."
+    },
+    "git": {
+        "header": "Sık Kullanılan Git Komutları",
+        "first_content": "Versiyon Kontrolü",
+        "second_content": "Bulunulan branch üzerinden atılan bütün commitleri listeler",
+        "third_content": "Hangi branch'te bulunulduğunu gösterir",
+        "fourth_content": "user isimli branch oluşturur",
+        "fifth_content": "user isimli branch silinir.",
+        "sixth_content": "user branch'ine geçiş yapar (dallanır)",
+        "seventh_content": "Son değişiklikleri görüntüler",
+        "eighth_content": "Mevcutta bulunan değişiklikleri locale'imizdeki stash dosyasına kaydeder ve istediğimiz zaman oradan çekebiliriz",
+        "nineth_content": "Stash'te bulunan değişikliklerimizi listeler",
+        "tenth_content": "Stash içerisindeki son değişikliği getirir",
+        "eleventh_content": "Stash içerisindeki 0. index'teki değişikliği getirir ve onu listeden siler",
+        "twelfth_content": "Stash içerisindeki 1. index'teki değişikliği getirmeden listeden siler",
+        "thirteenth_content": "CommitID'si verilen commit'i yeni bir commit üreterek siler",
+        "fourteenth_content": "HEAD ve sonrasındaki commitleri yeni commit üretmeden siler"
     }
 }

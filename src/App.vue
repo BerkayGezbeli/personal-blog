@@ -89,8 +89,8 @@
       <v-card-title class="grey lighten-2">
         <v-spacer></v-spacer>
         <v-btn
-          v-for="item in footerIcons"
-          :key="item"
+          v-for="(item, index) in footerIcons"
+          :key="index"
           class="mx-4"
           icon
           :href="item.link" 
@@ -136,6 +136,7 @@ export default {
         { title: this.$t('common.drawer.home'), icon: 'mdi-view-dashboard', to: '/' },
         { title: this.$t('common.drawer.about'), icon: 'mdi-comment-multiple', to: '/aboutPage' },
         { title: this.$t('common.drawer.web_site'), icon: 'mdi-web', to: '/websitePage' },
+        { title: this.$t('common.drawer.git'), icon: 'mdi-git', to: '/gitPage' },
       ]
     }
   },
