@@ -34,7 +34,7 @@
     },
     "git": {
         "header": "Sık Kullanılan Git Komutları",
-        "first_content": "Versiyon Kontrolü",
+        "version": "Versiyon Kontrolü",
         "second_content": "Bulunulan branch üzerinden atılan bütün commitleri listeler",
         "third_content": "Hangi branch'te bulunulduğunu gösterir",
         "fourth_content": "user isimli branch oluşturur",
