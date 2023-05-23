@@ -3,18 +3,19 @@
         "drawer": {
             "home": "Home",
             "about": "About",
-            "web_site": "Website Creation Steps"
+            "web_site": "Website Creation Steps",
+            "git": "Git Notes"
         }
     },
     "about":{
         "header_about": "About",
         "header_interests": "My Interests",
-        "about_content": "I was born on 26 September 1996 in Beyoglu Istanbul, I am the youngest son of the family. In the following period. We moved to Sinanoba which is neighbourhood of Büyükçekmece district. It was a beautiful place with a very quiet, calm and orderly layout. I had an active childhood with fun, games and friends. I completed my primary and secondary education at YalçınÇiftçioğlu Primary School in our district. I completed the first 3 years of high school at Gümüşyaka Anatolian High School, which is quite outside the city, and my last year at Büyükçekmece Anatolian High School. I won the Department of Electrical and Electronics Engineering at Adana Çukurova University for the university. During this period, I had a 4-month Work and Travel experience in the USA. At the end of my graduation, I started to work in a company on environmental and energy technologies. At the end of 7 months, I switched to the software industry and I am still working at Etiya as a Front End developer.",
-        "interests_content": "Swimming, Ski, Cardio workout, Reading, Motorcycle, Camping"
+        "about_content": "I was born on 26 September 1996 in Beyoglu Istanbul, I am the youngest son of the family. In the following period. We moved to Sinanoba which is neighbourhood of Büyükçekmece district. It was a beautiful place with a very quiet, calm and orderly layout. I completed my primary and secondary education at YalçınÇiftçioğlu Primary School in our district. I completed the first 3 years of high school at Gümüşyaka Anatolian High School, which is quite outside the city, and my last year at Büyükçekmece Anatolian High School. I won the Department of Electrical and Electronics Engineering at Adana Çukurova University for the university. During this period, I had a 4-month Work and Travel experience in the USA. At the end of my graduation, I started to work in a company on environmental and energy technologies. At the end of 7 months, I switched to the software industry and I am still working at Etiya as a Front End developer.",
+        "interests_content": "Swimming, Ski, Cardio , Reading, Motorcycle, Camping, Puzzle"
     },
     "home":{
         "header": "Hello!",
-        "content": "My name is Berkay Gezbeli, to give information about myself and share somethings about my life, I have created this blog. You can get information what you wonder about me."
+        "content": "To give information about myself, share somethings about my life and also what I know, I have created this blog. You can get information what you wonder."
     },
     "website": {
         "header": "Website Creation Basic Steps",
@@ -29,5 +30,22 @@
         "eighth_content": "After we completed our project we create a package. So what is this package? Our codes therefore our site is working on locale but we have not done this to see this for just ourselves :). Because of this we need to upload our codes to somewhere and site can be shared with people via link. But still what is this package? Our browser do not understand Angular, React, Vuejs! There is one thing that it can understand HTML, CSS, Javascript . With the 'npm run build' command, we create a folder (package) named dist that contains the codes we wrote, a js, css and index.html, and the favicon and images we added later.",
         "nineth_content": "We upload this created dist folder under htdocs in the area reserved for us to manage our files, where we get the server.",
         "tenth_content": "If we have a subdomain provided under our hosting provider, after uploading the files, clicking the relevant URL will open our site. If we bought an external domain, not a subdomain, there is a concept called a name server so that our host and domain can be associated. We need to paste the name servers of the host into the domain. In other words, by entering the name servers, we perform the connection operations of our host and domain, and we build the bridge. A few hours after making the connection process, the process is completed. Our site is now ready and accessible."
+    },
+    "git": {
+        "header": "Favorite Git Commands",
+        "first_content": "",
+        "second_content": "",
+        "third_content": "",
+        "fourth_content": "",
+        "fifth_content": "",
+        "sixth_content": "",
+        "seventh_content": "",
+        "eighth_content": "",
+        "nineth_content": "",
+        "tenth_content": "", 
+        "eleventh_content": "",
+        "twelfth_content": "",
+        "thirteenth_content": "",
+        "fourteenth_content": ""
     }
 }
