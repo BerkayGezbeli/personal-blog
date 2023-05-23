@@ -2,7 +2,7 @@
     <v-container>
       <span class="text-h2">{{$t('git.header')}}</span>
       <div class="mt-3">
-        <p class="text-subtitle-2">1 - git --version : {{ $t('git.first_content') }}</p>
+        <p class="text-subtitle-2">1 - git --version : {{ $t('git.version') }}</p>
         <p class="text-subtitle-2">2 - git log : {{ $t('git.second_content') }}</p>
         <p class="text-subtitle-2">3 - git branch : {{ $t('git.third_content') }}</p>
         <p class="text-subtitle-2">4 - git branch user : {{ $t('git.fourth_content') }}</p>
